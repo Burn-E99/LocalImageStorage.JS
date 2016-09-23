@@ -18,6 +18,11 @@ Methods will be added as they are completed.
 * GetAvailableSpace()
 * GetUsedSpace()
 * GetReservedMemory()
+* JPEG/JPG Support
+
+## Example Code
+
+Example code will be added as methods are completed.
 
 ## Questions?
 
