@@ -1,0 +1,2 @@
+# LocalImageStorage.JS
+
