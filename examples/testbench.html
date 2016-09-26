@@ -3,8 +3,17 @@
 	<head>
 		<script type="text/javascript" src="../lib/LocalImageStorage.js"></script>
 		<script>
-			var LIS = LocalImageStorage;
-			console.log(LIS.GetAvailableSpace());
+			window.onload = function() {
+				var LIS = LocalImageStorage;
+				console.log(LIS.GetAvailableSpace());
+				LIS.InitializeImage("./Example_image.png", "test")
+				.then(function(imgdata) {
+					var image = document.createElement('img');
+					image.src = imgdata;
+					document.body.appendChild(image);
+					console.log(LIS.GetAvailableSpace());
+				});
+			};
 		</script>
 	</head>
 	<body>

@@ -1,4 +1,4 @@
-# LocalImageStorage.JS V0.1.0 (9/23/16)
+# LocalImageStorage.JS V0.2.0 (9/23/16)
 
 A simple library designed to make saving commonly loaded images to localstorage.
 
