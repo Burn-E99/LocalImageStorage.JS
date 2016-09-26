@@ -1,4 +1,4 @@
-# LocalImageStorage.JS V0.0.1 (9/23/16)
+# LocalImageStorage.JS V0.1.0 (9/23/16)
 
 A simple library designed to make saving commonly loaded images to localstorage.
 
@@ -17,10 +17,7 @@ Methods will be added as they are completed.
 * AddImage(Path, Name)
 * GetImage(Name)
 * RemoveImage(Name)
-* SetReservedSpace(Size)
 * GetAvailableSpace()
-* GetUsedSpace()
-* GetReservedSpace()
 * JPEG/JPG Support
 
 ## Example Code
