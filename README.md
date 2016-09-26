@@ -17,6 +17,7 @@ Methods will be added as they are completed.
 * AddImage(Path, Name)
 * GetImage(Name)
 * RemoveImage(Name)
+* InitializeImage(Path, Name)
 * GetAvailableSpace()
 * JPEG/JPG Support
 
