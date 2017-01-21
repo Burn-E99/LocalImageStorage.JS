@@ -7,7 +7,7 @@ LocalImageStorage.JS (Referred as LIS.JS from now on) is designed to allow you t
 ## Setting LIS.JS up for Use
 
 1. First download the latest release from the release folder, and save it.
-2. Next, include the following in your HTML `<head>`: `<script type="text/javascript" src="/path/to/LocalImageStorageVX.X.X.js"></script>` (replacing `/path/to` with the path, and X.X.X with the version you are using)
+2. Next, include the following in your HTML `<head>`: `<script type="text/javascript" src="/path/to/LocalImageStorageVX.X.X.min.js"></script>` (replacing `/path/to` with the path, and X.X.X with the version you are using)
 3. [OPTIONAL] To save the typing of LocalImageStorage each time you need to use it, place this code at the top of your JS files to be able to use LIS instead: `var LIS = LocalImageStorage`.
 
 ## LIS.JS Docs
