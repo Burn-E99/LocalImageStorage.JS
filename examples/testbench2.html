@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="../lib/LocalImageStorage.js"></script>
+		<script>
+			window.onload = function() {
+				var LIS = LocalImageStorage;
+				console.log(LIS.GetAvailableSpace());
+				LIS.AddImage("./Example_image.png", "test");
+				
+				window.setTimeout(function(){
+					var imgdata = LIS.GetImage("test");
+					var image = document.createElement('img');
+					image.src = imgdata;
+					document.body.appendChild(image);
+				},10000)
+			};
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

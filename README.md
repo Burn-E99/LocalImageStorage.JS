@@ -1,4 +1,4 @@
-# LocalImageStorage.JS V0.2.0 (9/23/16)
+# LocalImageStorage.JS V1.0.0 (1/21/17)
 
 A simple library designed to make saving commonly loaded images to localstorage.
 
@@ -6,24 +6,33 @@ LocalImageStorage.JS (Referred as LIS.JS from now on) is designed to allow you t
 
 ## Setting LIS.JS up for Use
 
-Will be written once code is started.
+1. First download the latest release from the release folder, and save it.
+2. Next, include the following in your HTML `<head>`: `<script type="text/javascript" src="/path/to/LocalImageStorageVX.X.X.js"></script>` (replacing `/path/to` with the path, and X.X.X with the version you are using)
+3. [OPTIONAL] To save the typing of LocalImageStorage each time you need to use it, place this code at the top of your JS files to be able to use LIS instead: `var LIS = LocalImageStorage`.
 
 ## LIS.JS Docs
 
-Methods will be added as they are completed.
+* AddImage(String Path, String Name)
+  * Adds the image to LocalStorage by using the direct path provided and then saving it under the name provided.
+* GetImage(String Name)
+  * Returns the image data from LocalStorage (assuming it was Initialized or Added prior to this) to the user using the name provided.
+* RemoveImage(String Name)
+  * Removes the image from LocalStorage using the name provided in the case that the user does not want it saved anymore.
+* InitializeImage(String Path, String Name)
+  * Adds the image just the same as AddImage, but instead immediately returns a Promise with the image data.
+* GetAvailableSpace()
+  * Returns the amount of space left in KB.
+* Version()
+  * Returns the version number.
 
 ## LIS.JS Wishlist
 
-* AddImage(Path, Name)
-* GetImage(Name)
-* RemoveImage(Name)
-* InitializeImage(Path, Name)
-* GetAvailableSpace()
 * JPEG/JPG Support
+* Documented Code
 
 ## Example Code
 
-Example code will be added as methods are completed.
+Please see my test bench at [http://testbench.burne99.com/LIS/examples](http://testbench.burne99.com/LIS/examples) for examples and more information.
 
 ## Questions?
 
